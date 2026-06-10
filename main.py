@@ -53,7 +53,7 @@ if "vectorstore" not in st.session_state:
     else:
         st.session_state.vectorstore = None
 
-def get_relevant_context(query: str, k: int = 25) -> str:
+def get_relevant_context(query: str, k: int = 8) -> str:
     """Retrieve the k most relevant chunks from the knowledge base."""
     if st.session_state.vectorstore is None:
         return ""
