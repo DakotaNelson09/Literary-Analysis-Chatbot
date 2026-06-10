@@ -1,3 +1,5 @@
 .streamlit/secrets.toml
 resources/
 knowledge_index/
+.idea/
+.streamlit/
