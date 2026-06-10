@@ -7,7 +7,7 @@ Installation:
 2. Install dependencies: pip install streamlit openai langchain langchain-community langchain-huggingface faiss-cpu sentence-transformers
 3. Create a .streamlit/secrets.toml file and add your API key: deepseek-key = "your-api-key-here"
 4. Add any .txt resource file to a folder named resources in the project directory
-5. Run with: Streamlit run main.py
+5. Run with: streamlit run main.py
 
 Notes:
 The first run takes more time, depending on how many files are in the resources folder. Once built, knowledge_index is saved locally, allowing for faster run times afterward.
